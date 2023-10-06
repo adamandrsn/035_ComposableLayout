@@ -92,6 +92,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     KotlinkuTheme {
-        Greeting("Android")
+        TampilLayar("hallo", dari = "saudaraku")
     }
 }
